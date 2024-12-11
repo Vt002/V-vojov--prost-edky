@@ -39,19 +39,22 @@ Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodob
 
 1. Následující program nahrajte do MCU a odzkoušejte.
 
-'''
+<!--
+```
 Micropython
 
 Program, který bude blikat s LED a posílat nějakou zprávu do konzole.
 Je potřeba, aby byla připojena nějaká knihovna.
-'''
+```
 
-'''
+```
 Arduino language (C++)
 
 Program, který bude blikat s LED a posílat nějakou zprávu do konzole.
 Je potřeba, aby byla připojena nějaká knihovna.
-'''
+```
+-->
+
 2. Vyhledejte na internetu, případně použijte chat bota, co který řádek kódu dělá, včetně odborných termínů, jako je třída, knihovna, apod. (komu vyhovuje víc angličtina, vyhledejte si pojmy rovnou v angličtině).
 
 3. Zobecněte zjištěné informace o programu a sepište základní strukturu programu. Tedy z jakých částí se obecně program pro dané MCU skládá, jak jdou tyto části za sebou a jaký je obecný zápis.
@@ -59,6 +62,35 @@ Je potřeba, aby byla připojena nějaká knihovna.
 
 ### 3. Hardwarové vývojové prostředky
 
-1. 
+1. Vyhledejte na internetu, co se rozumí v souvislosti s programováním MCU pod pojmy: vývojový kit, vývojová deska, vývojová platforma, modul a shield.
+
+2. Vývoj hardwaru je často také o ověřování/kontrole správné funkčnosti. K tomu se používají různé měřící přípravky a přístroje. Zjistěte, co je to logická sonda, logický analizátor a osciloskop. A k čemu se tyto měřící přístroje používají.
+
+3. Pomocí multimetru změřte:
+    - Zda je propojovací vodič vpořádku, nebo je přerušený
+    - Napájecí napětí na svorkách Vcc a GND (o kolik se liší od deklarované hodnoty?)
+    - Hodnotu předloženého rezistoru
+    - Jak jsou zapojeny piny předloženého tlačítka
+    - Zkontrolujte, zda je proražená LED
 
 
+### 4. Softwarové vývojové prostředky a programovací jazyky
+
+1. Vyhledejte, z jakých programů/částí/nástrojů je složené vývojové prostředí pro daný MCU.
+
+> :key: **IDE**
+>
+> Integrované vývojové prostředí (Integrated Development Environment)
+> Vývojové prostředí. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 30. 5. 2023 v 19:26. Dostupné z: https://cs.wikipedia.org/wiki/V%C3%BDvojov%C3%A9_prost%C5%99ed%C3%AD. [cit. 2024-12-11].
+
+2. Níže jsou uvedeny dva typy chyb v kódu, zjistěte, kdo/co je vyhledá a kdo/co je opraví.
+
+> :key: **Syntaktická chyba**
+>
+> ...
+
+> :key: **Logická chyba**
+>
+> ...
+
+3. Zjistěte, do jakých kategorií a jakou mají historii jazyky Micropython a Arduino language. Z jakých jazyků jsou odvozeny a jak se liší od strukturovaných jazyků jako je např. ANSI C, nebo Pascal.
