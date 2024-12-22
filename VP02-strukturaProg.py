@@ -3,7 +3,7 @@ from time import ticks_ms
 
 old_time = 0
 
-pinLED = Pin(00, Pin.OUT)
+pinLED = Pin(0, Pin.OUT)
 
 while True:
     new_time = ticks_ms()
