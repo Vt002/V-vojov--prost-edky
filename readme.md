@@ -141,10 +141,14 @@ void loop() {
 >
 > Nejčastěji se setkáme s chybami v syntaxi jazyka (zápis/gramatika programovacího jazyka). Vyhledává je při překladu kompilátor (překladač).
 > Další problém bývá v tom, že program je syntakticky vpořádku, ale nepracuje jak by měl. Některé chyby vedou i k zamrznutí, či zhavarování programu. V tomto případě se jedná o logické chyby, které musí vyhledat programátor, popřípadě tester. Používá se debugger, případně speciální testovací SW (případně i HW).
+>
 > Podrobněji:
+>
 > ITNETWORK S.R.O. Debugging: Úvod a terminologie. Online. WWW.ITNETWORK.CZ. Itnetwork.cz. Dostupné z: https://www.itnetwork.cz/javascript/debugging-vscode-webstorm/debugging-uvod-a-terminologie. [cit. 2024-12-21].
 >
+>
 > Případně ještě:
+>
 > Softwarová chyba. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 16. 1. 2024 v 10:48. Dostupné z: https://cs.wikipedia.org/wiki/Softwarov%C3%A1_chyba. [cit. 2024-12-21].
 > Syntaxe (programovací jazyk). Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 20. 11. 2024 v 17:02. Dostupné z: https://cs.wikipedia.org/wiki/Syntaxe_(programovac%C3%AD_jazyk). [cit. 2024-12-12].
 > Sémantika programovacích jazyků. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 16. 8. 2023 v 16:07. Dostupné z: https://cs.wikipedia.org/wiki/S%C3%A9mantika_programovac%C3%ADch_jazyk%C5%AF. [cit. 2024-12-21].
