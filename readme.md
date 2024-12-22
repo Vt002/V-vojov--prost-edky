@@ -39,15 +39,17 @@ Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodob
 
 1. Následující program nahrajte do MCU a odzkoušejte.
 
+    <details>
+        <summary> :bulb: Tip: Návod na programování Raspberry pi pico </summary>
+            <h3>v Arduino IDE 2.x.x </h3>
+            <p>Programming Raspberry Pi Pico with Arduino IDE (Pico W compatible). Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/programming-raspberry-pi-pico-w-arduino-ide/. [cit. 2024-12-22].</p>
+            
+            <h3>v Thony </h3>
+            <p>Getting Started with Raspberry Pi Pico (and Pico W). Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/getting-started-raspberry-pi-pico-w/. [cit. 2024-12-22].</p>
 
-<!-- Návody na naprogramování MCU v uPythonu a Arduino l.
-
-
-Návod na programování v Arduino IDE 2.3.x
-EDÉN, Jan-Olof. Programming Raspberry Pi Pico with Arduino IDE (Pico W compatible). Online. Random Nerd Tutorials. 2023. Dostupné z: https://randomnerdtutorials.com/programming-raspberry-pi-pico-w-arduino-ide/. [cit. 2024-12-21].
-
-
- -->
+            <h3>ve VS Code </h3>
+            <p>Programming Raspberry Pi Pico with VS Code and MicroPython. Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/raspberry-pi-pico-vs-code-micropython/. [cit. 2024-12-22].</p>
+    </details>
 
 
 ```
@@ -108,8 +110,6 @@ void loop() {
 2. Vyhledejte na internetu, případně použijte chat bota, co který řádek kódu dělá, včetně odborných termínů, jako je třída, knihovna, apod. (komu vyhovuje víc angličtina, vyhledejte si pojmy rovnou v angličtině).
 
 3. Zobecněte zjištěné informace o programu a sepište základní strukturu programu. Tedy z jakých částí se obecně program pro dané MCU skládá, jak jdou tyto části za sebou a jaký je obecný zápis.
-
-<!-- do jiné úlohy přidat jako typy odkazy na info o millis, ticks_ms a interruptu  -->
 
 
 ### 3. Hardwarové vývojové prostředky
