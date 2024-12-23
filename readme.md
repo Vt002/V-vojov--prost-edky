@@ -43,10 +43,8 @@ Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodob
         <summary> :bulb: Tip: Návod na programování Raspberry pi pico </summary>
             <p><b>v Arduino IDE 2.x.x </b></p>
             <p>Programming Raspberry Pi Pico with Arduino IDE (Pico W compatible). Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/programming-raspberry-pi-pico-w-arduino-ide/. [cit. 2024-12-22].</p>
-            
             <p><b>v Thony </b></p>
             <p>Getting Started with Raspberry Pi Pico (and Pico W). Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/getting-started-raspberry-pi-pico-w/. [cit. 2024-12-22].</p>
-
             <p><b>ve VS Code </b></p>
             <p>Programming Raspberry Pi Pico with VS Code and MicroPython. Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/raspberry-pi-pico-vs-code-micropython/. [cit. 2024-12-22].</p>
     </details>
