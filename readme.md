@@ -49,6 +49,15 @@ Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodob
             <p>Programming Raspberry Pi Pico with VS Code and MicroPython. Online. RandomNerdTutorials.com. Dostupné z: https://randomnerdtutorials.com/raspberry-pi-pico-vs-code-micropython/. [cit. 2024-12-22].</p>
     </details>
 
+    <details>
+        <summary> :bulb: Tip: Problémy s IDE </summary>
+            <p><b>Arduino IDE - chybí složka Arduino 15</b></p>
+            <p>Open the Arduino15 folder. Online. WWW.ARDUINO.CC. June 3, 2024. Dostupné z: https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder. [cit. 2024-12-23].</p>
+    </details>
+
+
+
+
 
 ```
 # Micropython - viz VP02-strukturaProg.py
