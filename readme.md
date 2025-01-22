@@ -2,16 +2,16 @@
 [nic ]: #
 
 
-
 # Vývojové prostředky
+
+$${\color{#4682B4}A9 }$$
 
 ## Cíl
 
--	Studenti se budou orientovat v problematice vývojových prostředků pro řídící jednotky postavených na vybraném MCU
+- Studenti se budou orientovat v problematice vývojových prostředků pro řídící jednotky postavených na vybraném MCU
 -   Včetně programovacích jazyků
 -   Dále budou umět připojit vývojovou desku s příslušným MCU k počítači a tzv. ji oživit, tedy nahrát zkušební program
 -   A popíší strukturu tohoto programu
-
 
 ## Ověření cílů
 
@@ -21,7 +21,6 @@ Vývojové prostředky
 2. Rozdělení programovacích jazyků pro programování vybraných řídících jednotek
 3. Struktura programu (knihovny, nastavení, nekonečná smyčka)
 4. Příklad oživení vybrané řídící jednotky a ladění jednoduchého programu
-
 
 ## Úlohy
 
@@ -33,7 +32,6 @@ Vývojové prostředky
 4. Většina desek má integrovanou LED, která se hodí pro odzkoušení funkčnosti desky a komunikace s vývojovým prostředím. Pokud ne, připoj externí LED na jeden z digitálních výstupů a zem (GND). Poté napište jednoduchý program na rozsvícení/rozblikání této LED. V Arduino IDE jsou i příklady programů, které lze přímo použít. 
 
 Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodobě by to neměl být problém, ale z dlouhodobého provozu se výrazně zkrátí její životnost. 
-
 
 ### 2. Struktura programu
 
@@ -58,7 +56,6 @@ Pozn.: Pokud jste zapojili externí LED bez předřadného rezistoru, krátkodob
 
 
 
-
 ```
 # Micropython - viz VP02-strukturaProg.py
 
@@ -79,7 +76,6 @@ while True:
         print("New time = {} ms".format(new_time))
         # print("New time = ", new_time)
 ```
-
 
 ```
 // Arduino language (C++) - VP02-strukturaProg/VP02-strukturaProg.ino
@@ -113,25 +109,22 @@ void loop() {
 }
 ```
 
-
 2. Vyhledejte na internetu, případně použijte chat bota, co který řádek kódu dělá, včetně odborných termínů, jako je třída, knihovna, apod. (komu vyhovuje víc angličtina, vyhledejte si pojmy rovnou v angličtině).
 
 3. Zobecněte zjištěné informace o programu a sepište základní strukturu programu. Tedy z jakých částí se obecně program pro dané MCU skládá, jak jdou tyto části za sebou a jaký je obecný zápis.
-
 
 ### 3. Hardwarové vývojové prostředky
 
 1. Vyhledejte na internetu, co se rozumí v souvislosti s programováním MCU pod pojmy: vývojový kit, vývojová deska, vývojová platforma, modul a shield.
 
-2. Vývoj hardwaru je často také o ověřování/kontrole správné funkčnosti. K tomu se používají různé měřící přípravky a přístroje. Zjistěte, co je to logická sonda, logický analizátor a osciloskop. A k čemu se tyto měřící přístroje používají.
+2. Vývoj hardwaru je často také o ověřování/kontrole správné funkčnosti. K tomu se používají různé měřící přípravky a přístroje. Zjistěte, co je to logická sonda, logický analyzátor a osciloskop. K čemu se tyto měřící přístroje používají?
 
 3. Pomocí multimetru změřte:
-    - Zda je propojovací vodič vpořádku, nebo je přerušený
+    - Zda je propojovací vodič v pořádku, nebo je přerušený
     - Napájecí napětí na svorkách Vcc a GND (o kolik se liší od deklarované hodnoty?)
     - Hodnotu předloženého rezistoru
     - Jak jsou zapojeny piny předloženého tlačítka
     - Zkontrolujte, zda je proražená LED
-
 
 ### 4. Softwarové vývojové prostředky a programovací jazyky
 
@@ -147,7 +140,7 @@ void loop() {
 > :key: **Chyby v programu**
 >
 > Nejčastěji se setkáme s chybami v syntaxi jazyka (zápis/gramatika programovacího jazyka). Vyhledává je při překladu kompilátor (překladač).
-> Další problém bývá v tom, že program je syntakticky vpořádku, ale nepracuje jak by měl. Některé chyby vedou i k zamrznutí, či zhavarování programu. V tomto případě se jedná o logické chyby, které musí vyhledat programátor, popřípadě tester. Používá se debugger, případně speciální testovací SW (případně i HW).
+> Další problém bývá v tom, že program je syntakticky v pořádku, ale nepracuje, jak by měl. Některé chyby vedou i k zamrznutí, či zhavarování programu. V tomto případě se jedná o logické chyby, které musí vyhledat programátor, popřípadě tester. Používá se debugger, případně speciální testovací SW (případně i HW).
 >
 > Podrobněji:
 >
@@ -160,5 +153,6 @@ void loop() {
 > Syntaxe (programovací jazyk). Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 20. 11. 2024 v 17:02. Dostupné z: https://cs.wikipedia.org/wiki/Syntaxe_(programovac%C3%AD_jazyk). [cit. 2024-12-12].
 > Sémantika programovacích jazyků. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 16. 8. 2023 v 16:07. Dostupné z: https://cs.wikipedia.org/wiki/S%C3%A9mantika_programovac%C3%ADch_jazyk%C5%AF. [cit. 2024-12-21].
 
-
 3. Zjistěte, do jakých kategorií a jakou mají historii jazyky Micropython a Arduino language. Z jakých jazyků jsou odvozeny a jak se liší od strukturovaných jazyků jako je např. ANSI C, nebo Pascal.
+
+
