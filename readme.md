@@ -113,6 +113,12 @@ void loop() {
 
 3. Zobecněte zjištěné informace o programu a sepište základní strukturu programu. Tedy z jakých částí se obecně program pro dané MCU skládá, jak jdou tyto části za sebou a jaký je obecný zápis.
 
+<details>
+    <summary> :bulb: Tip: Knihovny </summary>
+        Když v projektu připojíte knihovnu, je praktické si u ní v komentáři poznamenat verzi, případně odkaz na dokumentaci. Knihovny nejsou neměnné a verze nemusí být plně kompatibilní. Důvodem změn bývá hlavně oprava chyb a děr v zabezpečení, ale i přidávání dalších funkcionalit, apod.     
+</details>
+
+
 ### 3. Hardwarové vývojové prostředky
 
 1. Vyhledejte na internetu, co se rozumí v souvislosti s programováním MCU pod pojmy: vývojový kit, vývojová deska, vývojová platforma, modul a shield.
